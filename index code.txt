@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Jav's World</title>
+		<link href="styles.css" rel="stylesheet">
+	</head>
+	
+	<body>	
+		<h1>Jav's World</h1>
+		
+	
+	</body>
+
+	<ul>
+	        
+                <nav>
+		
+		<h3>Home</h3>
+
+		<a href="page1.html">My Favorite Rappers </a> <br>
+	
+		<a href="page2.html">My Favorite Styles </a> <br>
+		
+		<a href="page3.html"> Me </a> <br>
+		</nav>
+	</ul>
+
+	
+	  <div class="row">
+		<center><p><strong>Playlist of the Week</strong></p></center>
+		<center><iframe src="https://open.spotify.com/embed/playlist/6BUP0RqWhjXevMCjnyCK1A?si=t-anKNk3Ruq8Z9FDH1z_Bg" 
+		width="300" height="380" frameborder="0" allowtransparency="true" 
+		allow="encrypted-media"></iframe></center>
+	
+	<center><p><strong>Black Bear Nation</strong></p></center>
+	<center><img src="bear.jpg" style="width:75%"></center>
+	
+</html>
+

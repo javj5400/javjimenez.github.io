@@ -1,0 +1,76 @@
+h1{color: brown; font-size: 28}
+
+h3{color: olivedrab
+   font-family: 'Felipa';}
+
+Body{font-size:14pt; 
+     background: aliceblue;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: aliceblue;
+}
+
+li a {
+  display: block;
+  color: blue;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 20%;
+  padding: 100px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* unvisited link */
+a:link {
+  color: brown;
+}
+
+
+/* visited link */
+a:visited {
+  color: brown;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}

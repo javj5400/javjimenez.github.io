@@ -1,0 +1,95 @@
+h1{color: Coral; font-size: 28;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 
+   0 1px 0 #000, -1px 0 0 #000;}
+
+h3{color: coral; font-size: 28;
+   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 
+   0 1px 0 #000, -1px 0 0 #000;}
+
+Body{font-size:14pt; 
+     background: lightgreen;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: lightgreen;
+}
+
+li a {
+  display: block;
+  color: blue;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: lightgreen;
+  color: white;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 20%;
+  padding: 100px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* unvisited link */
+a:link {
+  color: coral;text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 
+   0 1px 0 #000, -1px 0 0 #000;
+}
+
+
+/* visited link */
+a:visited {
+  color: coral;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#bg-text
+{
+    color:coral;
+    font-size:120px;
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+}
+
